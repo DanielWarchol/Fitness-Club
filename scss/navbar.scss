@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+   
+    top: 0;
+    left: 0;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.navbar {
+    background: #111;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+span {
+    color: orange !important;
+    font-weight: 500;
+}
+
+.nav-link {
+    color: orange !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    border: 0 !important;
+}
+
+.fa-bars {
+    color: white !important;
+}
+
+.nav-link {
+    position: relative;
+}

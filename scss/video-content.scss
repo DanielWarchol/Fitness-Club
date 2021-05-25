@@ -1,0 +1,39 @@
+.video-content {
+    position: relative;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: #111;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.video-content:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    background: orange;
+    transform-origin: top;
+    transform: skewX(-25deg);
+    z-index: 0;
+}
+
+.video-content video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.15;
+    pointer-events: none;
+}
+
+.text-video h1, h2 {
+    color: white !important;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
